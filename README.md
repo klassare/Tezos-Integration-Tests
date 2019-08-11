@@ -22,15 +22,22 @@ tz1eZwq8b5cvE2bPKokatLkVMzkxz24z3AAAA // Valid prefix, invalid checksum
 ```
 
 ## Address Derivation
+Generally, clients of Tezos should prefer `tz1` addresses. `tz2` or `tz3` addresses could also be derived from the given public key, but any integration should only really need to generate one address type from keypairs.
 
 ### Public Key To Address
-Generally, prefer `tz1` addresses. `tz2` or `tz3` addresses could also be derived from the given public key, but any integration should only really need to generate one address type from keypairs.
 ```
 Input Public Key Bytes in Hex: 01fe157cc8011727936c592f856c9071d39cf4acdadfa6d76435e4619c9dc56f63
 Output: tz1cG2jx3W4bZFeVGBjsTxUAG8tdpTXtE8PT
 ```
 
-## Originated Address Derivation
+### Private Key to Address
+
+```
+Input Private Key Bytes in Hex: 4646464646464646464646464646464646464646464646464646464646464646
+Output: tz1gcEWswVU6dxfNQWbhTgaZrUrNUFwrsT4z
+```
+
+### Originated Address Derivation
 Given an operation group hash and an operation index, the expected value of an address produced by an `origination` operation is deterministic:
 
 ```
