@@ -246,18 +246,17 @@ Output: 7105102c032807994dd9b5edf219261896a559876ca16cbf9d31dbe3612b89f20a01315b
 
 ```
 Input:
-  Branch: BLGJfQDFEYZBRLj5GSHskj8NPaRYhk7Kx5WAfdcDucD3q98WdeW
+  Branch: BM5mgqPS5RyCMk1mcE4dBY58FJhT871TTrapdJpEKz2VRXm6xFB
   Operations: [{
-    delegate: ""   // Empty string
-    source: KT1D5jmrBD7bDa3jCpgzo32FMYmRDdK2ihka"
+    source: KT1Qn544u1fPpzNum3zhDzw9nH5oVyvMRxDz"
     fee: 1257
-    counter: 67
+    counter: 6
     gas_limit: 10000
     storage_limit: 0
     kind: delegation
   }]
 
-Output: 48b63d801fa824013a195f7885ba522503c59e0580f7663e15c52f03ccc935e60a01315b1206ec00b1b1e64cc3b8b93059f58fa2fc3900e90943904e0000
+Output: b47d362427d49bec750ddf1697cbe4cb6b031fa212dba58d16becf447c2b880e0a01b1a52fb47285658bcf70e1e2fe11e737d339e08b00e90906904e0000
 ```
 
 #### Multiple Operations - Reveal and Transaction
